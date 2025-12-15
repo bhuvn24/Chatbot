@@ -5,6 +5,7 @@ A privacy-focused AI-powered financial chatbot built with **Streamlit**, **LangC
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 
 ## ✨ Features
 
@@ -80,6 +81,28 @@ src/
    ```bash
    streamlit run src/app.py
    ```
+
+### 🐳 Docker Installation (Recommended)
+
+1. **Using Docker Compose** (easiest)
+   ```bash
+   # Build and run
+   docker-compose up --build
+   
+   # Run in background
+   docker-compose up -d --build
+   ```
+
+2. **Using Docker directly**
+   ```bash
+   # Build the image
+   docker build -t financial-chatbot .
+   
+   # Run the container
+   docker run -p 8501:8501 --env-file .env financial-chatbot
+   ```
+
+3. **Access the application** at `http://localhost:8501`
 
 ## 📦 Dependencies
 

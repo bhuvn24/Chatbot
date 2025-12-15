@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Logs (optional - comment out if you want to include logs in build)
+logs/
+
+# Test files
+*.test.py
+test_*.py
+reproduce_*.py
+verify_*.py
+check_*.py
+
+# Misc
+*.md
+!README.md
+.DS_Store
+Thumbs.db
