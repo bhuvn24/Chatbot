@@ -2,10 +2,12 @@
 
 A privacy-focused AI-powered financial chatbot built with **Streamlit**, **LangChain**, and **RAG (Retrieval-Augmented Generation)** architecture. Get personalized financial advice while keeping your data secure.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
-![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io)
+[![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)](https://langchain.com)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://docker.com)
+
+### 🚀 [Live Demo](https://chatbot-tpnhq2gtyxpu4wzmgxnsmk.streamlit.app/)
 
 ## ✨ Features
 
