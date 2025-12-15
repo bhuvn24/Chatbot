@@ -55,42 +55,59 @@ if prompt := st.chat_input("Ask anything about finance..."):
                 if conversational_answer:
                     answer = conversational_answer
                 else:
-                    docs = route_query(prompt, mode, hardcoded_intent or None, retrievers)
-
-                    if not docs:
-                        # No local documents found - use web search
+                    # Check if query is about current/latest information - use web search directly
+                    current_event_keywords = ["latest", "recent", "current", "today", "2024", "2025", "new", "update", "now"]
+                    is_current_query = any(keyword in prompt.lower() for keyword in current_event_keywords)
+                    
+                    if is_current_query:
+                        # For current events, use web search directly for up-to-date info with sources
                         answer = web_fallback.search_and_scrape(prompt)
+                        if not answer or "unavailable" in answer.lower():
+                            # Fall back to RAG if web search fails
+                            docs = route_query(prompt, mode, hardcoded_intent or None, retrievers)
+                            if docs:
+                                model = get_slm() if mode != "all_db" else get_llm()
+                                chain = create_rag_chain(model, retrievers["all"], st.session_state.memory)
+                                chat_history = st.session_state.memory.messages
+                                result = chain.invoke({"input": prompt, "chat_history": chat_history})
+                                answer = result["answer"]
                     else:
-                        model = get_slm() if mode != "all_db" else get_llm()
-                        chain = create_rag_chain(model, retrievers["all"], st.session_state.memory)
-                        
-                        # Get chat history from memory (ChatMessageHistory has .messages directly)
-                        chat_history = st.session_state.memory.messages
-                        
-                        result = chain.invoke({"input": prompt, "chat_history": chat_history})
-                        answer = result["answer"]
-                        
-                        # Check if RAG response indicates no relevant context found
-                        no_context_phrases = [
-                            "does not contain",
-                            "no information",
-                            "not mentioned",
-                            "cannot find",
-                            "don't have information",
-                            "no relevant",
-                            "outside the scope",
-                            "not available in"
-                        ]
-                        
-                        # If RAG couldn't answer from context, try web search
-                        if any(phrase in answer.lower() for phrase in no_context_phrases):
-                            web_answer = web_fallback.search_and_scrape(prompt)
-                            if web_answer and "unavailable" not in web_answer.lower():
-                                answer = web_answer
-                        
-                        # Update memory with the new exchange
-                        st.session_state.memory.add_user_message(prompt)
-                        st.session_state.memory.add_ai_message(answer)
+                        docs = route_query(prompt, mode, hardcoded_intent or None, retrievers)
+
+                        if not docs:
+                            # No local documents found - use web search
+                            answer = web_fallback.search_and_scrape(prompt)
+                        else:
+                            model = get_slm() if mode != "all_db" else get_llm()
+                            chain = create_rag_chain(model, retrievers["all"], st.session_state.memory)
+                            
+                            # Get chat history from memory (ChatMessageHistory has .messages directly)
+                            chat_history = st.session_state.memory.messages
+                            
+                            result = chain.invoke({"input": prompt, "chat_history": chat_history})
+                            answer = result["answer"]
+                            
+                            # Check if RAG response indicates no relevant context found
+                            no_context_phrases = [
+                                "does not contain",
+                                "no information",
+                                "not mentioned",
+                                "cannot find",
+                                "don't have information",
+                                "no relevant",
+                                "outside the scope",
+                                "not available in"
+                            ]
+                            
+                            # If RAG couldn't answer from context, try web search
+                            if any(phrase in answer.lower() for phrase in no_context_phrases):
+                                web_answer = web_fallback.search_and_scrape(prompt)
+                                if web_answer and "unavailable" not in web_answer.lower():
+                                    answer = web_answer
+                    
+                    # Update memory with the new exchange
+                    st.session_state.memory.add_user_message(prompt)
+                    st.session_state.memory.add_ai_message(answer)
 
                 logger.info(f"Generated answer for query: {prompt}")
 
