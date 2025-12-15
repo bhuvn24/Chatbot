@@ -38,8 +38,13 @@ class WebFallback:
         prompt = f"Use this current web context to answer factually. Include disclaimer: 'Data as of {datetime.now().strftime('%Y-%m-%d')}'. Context: {context}\n\nQuestion: {query}\nAnswer:"
         answer = self.llm.invoke(prompt).content
 
-        # Add sources for transparency
-        sources = [r["link"] for r in results]
-        answer += f"\n\nSources: {', '.join(sources)}"
+        # Add sources for transparency with better formatting
+        if results:
+            sources_text = "\n\n---\n📌 **Sources:**\n"
+            for i, r in enumerate(results[:3], 1):
+                title = r.get("title", "Source")
+                link = r.get("link", "")
+                sources_text += f"{i}. [{title}]({link})\n"
+            answer += sources_text
 
         return answer
