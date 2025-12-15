@@ -58,6 +58,7 @@ if prompt := st.chat_input("Ask anything about finance..."):
                     docs = route_query(prompt, mode, hardcoded_intent or None, retrievers)
 
                     if not docs:
+                        # No local documents found - use web search
                         answer = web_fallback.search_and_scrape(prompt)
                     else:
                         model = get_slm() if mode != "all_db" else get_llm()
@@ -68,6 +69,24 @@ if prompt := st.chat_input("Ask anything about finance..."):
                         
                         result = chain.invoke({"input": prompt, "chat_history": chat_history})
                         answer = result["answer"]
+                        
+                        # Check if RAG response indicates no relevant context found
+                        no_context_phrases = [
+                            "does not contain",
+                            "no information",
+                            "not mentioned",
+                            "cannot find",
+                            "don't have information",
+                            "no relevant",
+                            "outside the scope",
+                            "not available in"
+                        ]
+                        
+                        # If RAG couldn't answer from context, try web search
+                        if any(phrase in answer.lower() for phrase in no_context_phrases):
+                            web_answer = web_fallback.search_and_scrape(prompt)
+                            if web_answer and "unavailable" not in web_answer.lower():
+                                answer = web_answer
                         
                         # Update memory with the new exchange
                         st.session_state.memory.add_user_message(prompt)
