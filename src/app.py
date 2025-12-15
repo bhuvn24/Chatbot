@@ -105,12 +105,16 @@ if prompt := st.chat_input("Ask anything about finance..."):
         chart_data = {'dates': ['2025-01-01', '2025-12-13'], 'prices': [100, 150]}  # Replace with real extraction
         display_chart_in_response(prompt, chart_data)
 
-        # Human-in-loop feedback for satisfaction/hallucinations
-        if st.button("Rate this response (Human Feedback)"):
-            feedback = st.slider("Satisfaction (1-10)", 1, 10)
-            st.text_area("Suggestions for improvement:")
-            st.write("Thanks! This helps improve accuracy.")
-            logger.info(f"User feedback: {feedback}")
+        # Human-in-loop feedback with thumbs up/down
+        col1, col2, col3 = st.columns([1, 1, 4])
+        with col1:
+            if st.button("👍", key=f"good_{len(st.session_state.messages)}"):
+                st.success("Thanks for the feedback!")
+                logger.info(f"User feedback: POSITIVE for query: {prompt}")
+        with col2:
+            if st.button("👎", key=f"bad_{len(st.session_state.messages)}"):
+                st.warning("Thanks! We'll improve.")
+                logger.info(f"User feedback: NEGATIVE for query: {prompt}")
 
     end_time = time.time()
     logger.info(f"Query processed in {end_time - start_time:.2f} seconds")
