@@ -1,0 +1,3 @@
+{
+    "markdown": "{\n  \"last_updated\": \"2025-12-13T18:57:26.820301\",\n  \"sources\": {\n    \"fred\": \"https://fred.stlouisfed.org\",\n    \"world_bank\": \"https://data.worldbank.org\"\n  },\n  \"indicators\": {\n    \"us_federal_funds_rate_percent\": 3.88,\n    \"us_federal_funds_rate_date\": \"2025-11-01\",\n    \"us_cpi_inflation_yoy_percent\": -2.93,\n    \"us_cpi_latest_date\": \"2024-09-01\",\n    \"us_gdp_billions_usd\": 25861.292,\n    \"us_gdp_quarter\": \"2022-04-01\",\n    \"global_gdp_trillions_usd\": null\n  }\n}"
+}

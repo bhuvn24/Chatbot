@@ -1,0 +1,16 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+langchain-ollama
+faiss-cpu
+sentence-transformers
+transformers
+torch
+firecrawl-py
+python-dotenv
+matplotlib
+requests
+beautifulsoup4
+wikipedia
+arxiv

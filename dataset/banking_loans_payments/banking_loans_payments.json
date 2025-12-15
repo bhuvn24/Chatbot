@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Card Services",
+        "intent": "activate_card",
+        "source": "Bank Policy / RBI Guidelines",
+        "content": "To activate a new debit or credit card, you must perform a transaction at a bank ATM using the One-Time PIN sent to your registered mobile number. Alternatively, log in to Net Banking, go to 'Cards' > 'Activate PIN'."
+    },
+    {
+        "category": "Card Services",
+        "intent": "activate_card_international_use",
+        "source": "Visa Developer / Bank Policy",
+        "content": "International usage is disabled by default for security. To enable it, visit the Mobile App > Manage Card > Usage Settings > Enable International Transactions. You can set daily limits for international spend there."
+    },
+    {
+        "category": "Card Services",
+        "intent": "block_card",
+        "source": "Bank Procedural Page",
+        "content": "If your card is lost or stolen, block it immediately. Open the Mobile App > Settings > Security > Block Card. This is instant. Alternatively, SMS 'BLOCK <Last 4 Digits>' to the official bank support number."
+    },
+    {
+        "category": "Card Services",
+        "intent": "check_card_annual_fee",
+        "source": "Fee Disclosure Document",
+        "content": "Standard Debit Cards: Free. Gold Credit Card: $50/year (waived if spend > $5000). Platinum Card: $100/year. Fees are deducted annually from your primary account balance."
+    },
+    {
+        "category": "Loans & Mortgages",
+        "intent": "apply_for_loan",
+        "source": "Data.gov Loan Programs / Bank Policy",
+        "content": "Personal Loan Eligibility: Minimum credit score of 700 and annual income of $30,000. Required docs: ID Proof, Address Proof, last 3 months' pay slips. Interest rates start at 10.5% p.a."
+    },
+    {
+        "category": "Loans & Mortgages",
+        "intent": "apply_for_mortgage",
+        "source": "Bank of England / RBI Data",
+        "content": "Mortgage Applications require a down payment of at least 20% of the property value. Max tenure is 30 years. Pre-approval takes 5-7 working days pending property valuation."
+    },
+    {
+        "category": "Loans & Mortgages",
+        "intent": "check_loan_payments",
+        "source": "Plaid API / Account History",
+        "content": "To check your loan repayment schedule, access the 'Loans' dashboard. Recent payments are also visible in your monthly statement under transaction code 'LN-PMT'."
+    },
+    {
+        "category": "Banking & Transfers",
+        "intent": "make_transfer",
+        "source": "Open Bank Project / Policy",
+        "content": "To make a transfer, add a beneficiary using their Account Number and Routing/IFSC code. There is a 30-minute cooling period for new beneficiaries before you can initiate a transfer."
+    },
+    {
+        "category": "Banking & Transfers",
+        "intent": "check_fees",
+        "source": "Regulatory Filings",
+        "content": "Transfer Fees: NEFT/ACH is free. Wire Transfers cost $25 per transaction. International SWIFT transfers charge 2% of the transaction value plus a fixed $15 fee."
+    },
+    {
+        "category": "Banking & Transfers",
+        "intent": "close_account",
+        "source": "Bank Procedural Pages",
+        "content": "To close an account, you must visit the home branch in person with a valid ID and surrender any issued chequebooks and debit cards. Online closure is not currently permitted for security reasons."
+    },
+    {
+        "category": "Disputes",
+        "intent": "dispute_ATM_withdrawal",
+        "source": "Bank Dispute Process",
+        "content": "If cash was not dispensed but your account was debited, file a dispute within 7 days. Go to Service Request > ATM Dispute in the app. The amount is usually reversed within T+5 working days."
+    },
+    {
+        "category": "Support",
+        "intent": "customer_service",
+        "source": "Official Contact Pages",
+        "content": "Customer Care Toll-Free: 1-800-123-4567. Email: support@genai-bank.com. For urgent fraud reporting, press option 9 on the IVR immediately."
+    }
+]

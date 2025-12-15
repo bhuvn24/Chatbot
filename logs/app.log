@@ -1,0 +1,294 @@
+2025-12-14 02:10:41,758 - INFO - Received user query: what is current price of apple? in mode hardcoded
+2025-12-14 02:10:41,758 - INFO - Received user query: what is current price of apple? in mode hardcoded
+2025-12-14 02:10:41,758 - INFO - Received user query: what is current price of apple? in mode hardcoded
+2025-12-14 02:10:41,758 - INFO - Received user query: what is current price of apple? in mode hardcoded
+2025-12-14 02:10:44,206 - ERROR - Error processing query what is current price of apple?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:10:44,206 - ERROR - Error processing query what is current price of apple?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:10:44,206 - ERROR - Error processing query what is current price of apple?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:10:44,206 - ERROR - Error processing query what is current price of apple?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:10:44,212 - INFO - Query processed in 2.45 seconds
+2025-12-14 02:10:44,212 - INFO - Query processed in 2.45 seconds
+2025-12-14 02:10:44,212 - INFO - Query processed in 2.45 seconds
+2025-12-14 02:10:44,212 - INFO - Query processed in 2.45 seconds
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:06,784 - INFO - Received user query: who is warren buffet? in mode hardcoded
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,938 - ERROR - Error processing query who is warren buffet?: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:07,946 - INFO - Query processed in 1.16 seconds
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:21,135 - INFO - Received user query: who is warren buffet? in mode all_db
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,385 - ERROR - Error processing query who is warren buffet?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:32,390 - INFO - Query processed in 11.25 seconds
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:58,946 - INFO - Received user query: how to active card? in mode hardcoded
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,028 - ERROR - Error processing query how to active card?: Missing some input keys: {'chat_history'}
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:11:59,033 - INFO - Query processed in 0.09 seconds
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:14,417 - INFO - Received user query: hi in mode classifier
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,394 - ERROR - Error processing query hi: Missing some input keys: {'chat_history'}
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 02:12:19,403 - INFO - Query processed in 4.99 seconds
+2025-12-14 21:20:47,331 - INFO - Received user query: what is stock price of apple.inc in mode classifier
+2025-12-14 21:20:47,331 - INFO - Received user query: what is stock price of apple.inc in mode classifier
+2025-12-14 21:20:47,331 - INFO - Received user query: what is stock price of apple.inc in mode classifier
+2025-12-14 21:20:53,955 - INFO - Generated answer for query: what is stock price of apple.inc
+2025-12-14 21:20:53,955 - INFO - Generated answer for query: what is stock price of apple.inc
+2025-12-14 21:20:53,955 - INFO - Generated answer for query: what is stock price of apple.inc
+2025-12-14 21:20:53,958 - INFO - Query processed in 6.63 seconds
+2025-12-14 21:20:53,958 - INFO - Query processed in 6.63 seconds
+2025-12-14 21:20:53,958 - INFO - Query processed in 6.63 seconds
+2025-12-14 21:21:09,749 - INFO - Received user query: hi ! in mode classifier
+2025-12-14 21:21:09,749 - INFO - Received user query: hi ! in mode classifier
+2025-12-14 21:21:09,749 - INFO - Received user query: hi ! in mode classifier
+2025-12-14 21:21:09,749 - INFO - Received user query: hi ! in mode classifier
+2025-12-14 21:21:09,749 - INFO - Received user query: hi ! in mode classifier
+2025-12-14 21:21:11,469 - ERROR - Error processing query hi !: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 21:21:11,469 - ERROR - Error processing query hi !: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 21:21:11,469 - ERROR - Error processing query hi !: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 21:21:11,469 - ERROR - Error processing query hi !: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 21:21:11,469 - ERROR - Error processing query hi !: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-14 21:21:11,472 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:21:11,472 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:21:11,472 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:21:11,472 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:21:11,472 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:20,061 - INFO - Received user query: what is stocks investments in mode hardcoded
+2025-12-14 21:42:20,061 - INFO - Received user query: what is stocks investments in mode hardcoded
+2025-12-14 21:42:20,061 - INFO - Received user query: what is stocks investments in mode hardcoded
+2025-12-14 21:42:20,061 - INFO - Received user query: what is stocks investments in mode hardcoded
+2025-12-14 21:42:20,061 - INFO - Received user query: what is stocks investments in mode hardcoded
+2025-12-14 21:42:21,777 - INFO - Generated answer for query: what is stocks investments
+2025-12-14 21:42:21,777 - INFO - Generated answer for query: what is stocks investments
+2025-12-14 21:42:21,777 - INFO - Generated answer for query: what is stocks investments
+2025-12-14 21:42:21,777 - INFO - Generated answer for query: what is stocks investments
+2025-12-14 21:42:21,777 - INFO - Generated answer for query: what is stocks investments
+2025-12-14 21:42:21,782 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:21,782 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:21,782 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:21,782 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:21,782 - INFO - Query processed in 1.72 seconds
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:50,911 - INFO - Received user query: hi  in mode classifier
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,230 - INFO - Generated answer for query: hi 
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:42:56,239 - INFO - Query processed in 5.33 seconds
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:08,271 - INFO - Received user query: who are you ? in mode classifier
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,669 - INFO - Generated answer for query: who are you ?
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-14 21:43:12,675 - INFO - Query processed in 4.40 seconds
+2025-12-15 00:38:14,452 - INFO - Received user query: hi,  in mode classifier
+2025-12-15 00:38:14,452 - INFO - Received user query: hi,  in mode classifier
+2025-12-15 00:38:14,452 - INFO - Received user query: hi,  in mode classifier
+2025-12-15 00:38:14,457 - INFO - Generated answer for query: hi, 
+2025-12-15 00:38:14,457 - INFO - Generated answer for query: hi, 
+2025-12-15 00:38:14,457 - INFO - Generated answer for query: hi, 
+2025-12-15 00:38:14,461 - INFO - Query processed in 0.01 seconds
+2025-12-15 00:38:14,461 - INFO - Query processed in 0.01 seconds
+2025-12-15 00:38:14,461 - INFO - Query processed in 0.01 seconds
+2025-12-15 00:38:40,430 - INFO - Received user query: can use say how to active card in mode classifier
+2025-12-15 00:38:40,430 - INFO - Received user query: can use say how to active card in mode classifier
+2025-12-15 00:38:40,430 - INFO - Received user query: can use say how to active card in mode classifier
+2025-12-15 00:38:40,430 - INFO - Received user query: can use say how to active card in mode classifier
+2025-12-15 00:38:40,430 - INFO - Received user query: can use say how to active card in mode classifier
+2025-12-15 00:38:46,541 - INFO - Generated answer for query: can use say how to active card
+2025-12-15 00:38:46,541 - INFO - Generated answer for query: can use say how to active card
+2025-12-15 00:38:46,541 - INFO - Generated answer for query: can use say how to active card
+2025-12-15 00:38:46,541 - INFO - Generated answer for query: can use say how to active card
+2025-12-15 00:38:46,541 - INFO - Generated answer for query: can use say how to active card
+2025-12-15 00:38:46,546 - INFO - Query processed in 6.12 seconds
+2025-12-15 00:38:46,546 - INFO - Query processed in 6.12 seconds
+2025-12-15 00:38:46,546 - INFO - Query processed in 6.12 seconds
+2025-12-15 00:38:46,546 - INFO - Query processed in 6.12 seconds
+2025-12-15 00:38:46,546 - INFO - Query processed in 6.12 seconds
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:45,728 - INFO - Received user query: hou can i check my bank balance in bank  in mode classifier
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,233 - INFO - Generated answer for query: hou can i check my bank balance in bank 
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:58:48,237 - INFO - Query processed in 2.51 seconds
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:27,317 - INFO - Received user query: what is the exact process for bank visit in mode classifier
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,967 - INFO - Generated answer for query: what is the exact process for bank visit
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
+2025-12-15 00:59:29,973 - INFO - Query processed in 2.66 seconds
