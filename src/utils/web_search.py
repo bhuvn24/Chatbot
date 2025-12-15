@@ -1,14 +1,14 @@
 # src/utils/web_search.py
-import os
 import requests
 from firecrawl import FirecrawlApp
 from src.models.llm import get_llm
+from src.config.settings import Settings
 from datetime import datetime
 
 class WebFallback:
     def __init__(self):
-        self.serper_key = os.getenv("SERPER_API_KEY")
-        self.firecrawl = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY")) if os.getenv("FIRECRAWL_API_KEY") else None
+        self.serper_key = Settings.SERPER_API_KEY
+        self.firecrawl = FirecrawlApp(api_key=Settings.FIRECRAWL_API_KEY) if Settings.FIRECRAWL_API_KEY else None
         self.llm = get_llm()
 
     def search_and_scrape(self, query: str) -> str:
