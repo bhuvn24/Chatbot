@@ -104,7 +104,7 @@ src/
    docker run -p 8501:8501 --env-file .env financial-chatbot
    ```
 
-3. **Access the application** at `http://localhost:8501`
+3. **Access the application** at `https://chatbot-tpnhq2gtyxpu4wzmgxnsmk.streamlit.app/`
 
 ## 📦 Dependencies
 
